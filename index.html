@@ -7,25 +7,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
-    <title>1</title>
+    <title>math3ng3</title>
 
     <style>
-        .is-paddingless-horizontal {padding-left: 0; padding-right: 0;}
-        .grid {
-            display: grid;
-            grid-template-columns: 
-            [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .grid * {grid-column: md;}
-        .grid-xl {grid-column: xl;}
+        .is-paddingless-horizontal {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns:
+                [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+        }
+
+        .grid * {
+            grid-column: md;
+        }
+
+        .grid-xl {
+            grid-column: xl;
+        }
     </style>
 
 </head>
 
 <body>
 
-    <section class="section is-paddingless">
+    <section class="section is-paddingless-horizontal">
         <div class="container grid">
             <nav class="breadcrumb grid-xl" aria-label="breadcrumbs">
                 <ul>
@@ -33,6 +48,64 @@
                     <li class="is-active"><a href="#" aria-label="page">Bruuuh</a></li>
                 </ul>
             </nav>
+        </div>
+    </section>
+
+    <section class="section is-paddingless-horizontal" style="padding-top: 0;">
+        <div class="container grid">
+            <article class="media center">
+                <figure class="media-left">
+                    <figure class="image is-64x64">
+                        <img src="images/Filtered Paint Brushes Various Colors Instagram Story  (4).png">
+                    </figure>
+                </figure>
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>Andrew Jesse Mathenge</strong> <a href="instagram"></a>
+                            <a href="https://www.instagram.com/math3ng3/" target="blank">@math3ng3</a><br>
+                            <span class="has-text-grey">Self-Taught, insired learner <br>
+                                <time datetime="2020-11-27">Nov 27</time> 20 min read</span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <div class="section is-paddingless-horizontal">
+                <h1 class="title is-2">A beautiful Blog</h1>
+                <h2 class="subtitle is-4 has-text-grey">First First Principles</h2>
+            </div>
+
+            <figure class="columns is-mobile is-variable is-marginless grid-xl">
+
+                <div class="column">
+                    <div class="image card">
+                        <a href=""><img src="images/Filtered Paint Brushes Various Colors Instagram Story  (4).png"></a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image card">
+                        <a href=""><img src="images/Filtered Paint Brushes Various Colors Instagram Story  (4).png"></a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="image card">
+                        <a href=""><img src="images/Filtered Paint Brushes Various Colors Instagram Story  (4).png"></a>
+                    </div>
+                </div>
+
+            </figure>
+
+            <figcaption class="level">
+                <small class="level-item has-text-grey">
+                    The blog we'll build. Scrimba
+                </small>
+            </figcaption>
+
+            <p>Buyakashaaaaa</p>
+
         </div>
     </section>
 
